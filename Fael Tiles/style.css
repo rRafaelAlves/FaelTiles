@@ -1,0 +1,95 @@
+body{
+    background: linear-gradient(rgb(114, 20, 177),rgb(57, 37, 170),rgb(37, 132, 170) );
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 165px;
+}
+
+.painel{
+    max-width: 600px ;
+    max-height: 200px;
+    margin: 0 auto;
+    margin-top: 200px;
+    border: 2px solid black;
+    display:flex;
+    background:white;
+    border-radius: 8px;
+    background: rgb(229, 241, 184);
+    
+}
+
+#placar{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin-top: 10px;
+    font-size: 32px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    border-radius: 4px;
+}
+
+#letreiro{
+    width: 460px;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    font-size: 32px ;
+    background: linear-gradient(rgb(229, 241, 184), rgb(235, 245, 207), rgb(229, 241, 184));
+}
+#letreiro:hover{
+    cursor: not-allowed;
+}
+
+
+.botaoPlay{
+    display: flex;
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    margin-top: 8px;
+
+}
+.comecar{
+    background-color: blueviolet;
+    border-radius: 30px;
+}
+img{
+   width: 100%;
+}
+.comecar:hover{
+cursor: pointer;
+}
+
+.teclado{
+ border: 2px solid black;
+ margin: 0 auto;
+ margin-top: 160px;
+ padding: 20px;
+ max-width: 500px;
+ max-height: 800px;
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ background: white;
+ border-radius: 8px;
+
+}
+
+.botao{
+    max-width: 200px;
+    max-height: 200px;
+    padding: 20px;
+    margin: 8px;
+    border-radius: 16px;
+}
+.botao:hover{
+    cursor: pointer;
+    background-color: rgb(236, 243, 243);
+}
